@@ -4,7 +4,7 @@ import Hero from './../component/Hero/Hero';
 import Features from '../component/Features/Features';
 import Menu from '../component/Menu/Menu';
 import MenuCard from '../component/MenuCard/MenuCard';
-import MyReviews from '../component/myReviews/MyReviews';
+import MyReviews from '../component/myReviews/myReviews';
 import Form from './../component/Form/Form';
 import myImg1 from '../assets/hero-pic.jpg'
 export default function Home() {
