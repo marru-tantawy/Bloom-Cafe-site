@@ -20,7 +20,7 @@ export default function Menu() {
             <p className='text-[#4e5b41]'>View Full Menu </p>
           </div>
         </div>
-        <div className='flex flex-wrap justify-center gap-8 my-4 p-3'>
+        <div className='flex flex-wrap justify-center  lg:justify-around  gap-8 my-4 p-3'>
   {menu.map((item) => (
     <div key={item.name} className='w-full max-w-64 py-3 flex flex-col'>
       <img className='w-full h-40 rounded-md object-cover' src={item.img} alt={item.name} />
